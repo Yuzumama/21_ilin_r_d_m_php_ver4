@@ -1,0 +1,201 @@
+﻿.view_one_pages_back_style {
+    width: 100%;
+    aspect-ratio: 42/60;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.view_empty_page_style {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 42/60;
+    background-color: transparent;
+}
+
+.view_item_empty_back_style {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 0px;
+    height: 0px;
+    display: block;
+    justify-content: start;
+}
+
+page_bottom_bar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button.page_btn_style {
+    font-family: Century Gothic;
+    font-size: 60px;
+    color: white;
+    background-color: rgb(191, 156, 80);
+    border-radius: 3px;
+    border-width: 2px;
+    border-color: rgb(191, 156, 80);
+    border-style: solid;
+    margin-bottom: 20px;
+    transition-duration: 300ms;
+}
+
+button.button.page_layout_btn_style {
+    width: 80px;
+    margin-right: 10px;
+    z-index: 5;
+}
+
+.book_flip_page_btn_bar_style {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prev_page_back_style {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prev_page_btn_circle_style {
+    left: -20px;
+    top: -20px;
+    width: 80px;
+    height: 80px;
+    border-width: 10px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    font-size: 52px;
+    transition-duration: 300ms;
+}
+
+.image_preview_style {
+    width: 80%;
+    aspect-ratio: 4/3;
+    position: relative;
+    left: 10%;
+    margin-top: 50px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.form_one_item_back_style {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.form_label_style {
+    width: 50px;
+    margin-right: 30px;
+    font-size: 12px;
+    font-family: Century Gothic;
+    font-weight: bold;
+    color: rgb(191, 156, 80);
+    text-align: left;
+}
+
+.form_text_style {
+    width: 200px;
+    border-color: rgb(191, 156, 80);
+    border-width: 0px;
+    border-bottom-width: 1px;
+    font-family: Century Gothic;
+    font-size: 12px;
+    outline: none;
+}
+
+.input_comments_style {
+    width: 200px;
+    height: 60px;
+    resize: none;
+    border-color: rgb(191, 156, 80);
+    border-width: 0px;
+    border-bottom-width: 1px;
+    font-family: Century Gothic;
+    font-size: 12px;
+    outline: none;
+}
+
+.form_button_back_style {
+    width: 350px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 20px;
+}
+
+button.page_btn_style {
+    font-family: Century Gothic;
+    font-size: 12px;
+    color: white;
+    background-color: rgb(191, 156, 80);
+    border-radius: 3px;
+    border-width: 2px;
+    border-color: rgb(191, 156, 80);
+    border-style: solid;
+    margin-bottom: 20px;
+    transition-duration: 300ms;
+}
+
+button.page_btn_style:hover {
+    background-color: white;
+    color: rgb(191, 156, 80);
+}
+
+button.page_btn_style:active {
+    transform: translate(3px, 3px);
+    background-color: white;
+    color: rgb(191, 156, 80);
+}
+
+button.select_image_btn_style {
+    width: 120px;
+    margin-right: 20px;
+}
+
+button.send_btn_style {
+    width: 60px;
+    margin-right: 20px;
+}
+
+button.cancel_btn_style {
+    width: 60px;
+}
+
+button.page_layout_btn_style {
+    width: 80px;
+    margin-right: 10px;
+    z-index: 5;
+}
+
+button.page_layout_rightmost_btn_style {
+    width: 80px;
+    z-index: 5;
+}
+
+.view_record_image_style {
+    width: 300px;
+    height: 225px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}

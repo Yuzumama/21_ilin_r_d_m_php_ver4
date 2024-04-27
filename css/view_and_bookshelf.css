@@ -1,0 +1,263 @@
+﻿.left_bar_back_style {
+    width: 250px;
+    height: 440px;
+    position: absolute;
+    left: 50px;
+    top: 150px;
+    display: block;
+    justify-content: right;
+    align-items: center;
+    overflow: hidden;
+}
+
+.left_bar_layer_1_style {
+    width: 210px;
+    height: 100%;
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    display: block;
+    justify-content: right;
+    align-items: center;
+    overflow: hidden;
+    transition-duration: 500ms;
+}
+
+.left_bar_layer_2_style {
+    width: 210px;
+    height: 100%;
+    position: absolute;
+    left: 100%;
+    top: 0px;
+    display: block;
+    justify-content: right;
+    align-items: center;
+    overflow: hidden;
+    transition-duration: 500ms;
+}
+
+.left_bar_left_side_fadeout_curtain_style {
+    width: 20px;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-image: linear-gradient(to right, white 0%, transparent 100%);
+}
+
+.left_bar_right_side_fadeout_curtain_style {
+    width: 20px;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-image: linear-gradient(to left, white 0%, transparent 100%);
+}
+
+.left_bar_back_top{
+    background-image: url("../img/left_back_2.png");
+    background-size: cover;
+    background-position: center;
+    width: 450px; 
+    height: 100px;
+    position: absolute;
+    left: -20px;
+    top: 0px;
+    display: block;
+}
+
+
+.left_bar_back_bottom{
+    background-image: url("../img/left_back_1.png");
+    background-size: cover;
+    background-position: center;
+    width: 450px; 
+    height: 150px;
+    position: absolute;
+    left: -20px;
+    top: 630px;
+    display: block;
+}
+
+.view_record_item_rotateable_back_style {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.record_drag_trigger_style {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto auto;
+    position: absolute;
+}
+
+.blank_curtain_style {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background-color: white;
+    transition-duration: 1000ms;
+}
+
+.view_left_page_back_style {
+    position: relative;
+    width: 420px;
+    height: 600px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.view_right_page_back_style {
+    position: relative;
+    width: 420px;
+    height: 600px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.view_item_rotate_btn_style {
+    width: 12px;
+    height: 12px;
+    background-color: rgb(80, 80, 80);
+    border-radius: 50%;
+    position: relative;
+    left: -30px;
+    transition-duration: 300ms;
+}
+
+.view_item_rotate_btn_style:hover {
+    background-color: rgb(200, 200, 200);
+}
+
+.view_record_cover_image_style {
+    width: 320px;
+    height: 500px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.first_page_title_style {
+    width: 300px;
+    text-align: center;
+    font-size: 40px;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 5px;
+}
+
+.first_page_title_for_recommendation_style {
+    width: 300px;
+    text-align: center;
+    font-size: 40px;
+    margin: 0 auto;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.first_page_for_recommendation_style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/tmp_book_cover_image_01.png");
+    color: white;
+}
+
+input.input_book_title_style {
+    width: 300px;
+    height: 50px;
+    font-size: 40px;
+    border-width: 1px;
+    text-align: center;
+    border-color: rgb(191, 156, 80);
+    border-width: 0px;
+    border-bottom-width: 1px;
+    outline: none;
+    background-color:rgba(255,255,255,1);
+    border-radius: 5px;
+    color: black;
+}
+
+input.input_book_title_style:focus {
+    background-color: rgba(255,255,255,1);
+    color: black;
+}
+
+button.edit_btn_style {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(32,113,68);
+    border-width: 5px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(32,113,68);
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-family: Century Gothic;
+    font-weight: bold;
+    color: white;
+    transition: 300ms;
+}
+
+button.edit_btn_style:hover {
+    background-color: white;
+    color: rgb(32,113,68);
+}
+
+button.edit_btn_style:active {
+    transform: translate(4px, 4px);
+    background-color: white;
+    color: rgb(32,113,68);
+}
+
+/*button.edit_btn_style {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    border: 0px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-family: Century Gothic;
+    font-weight: bold;
+    color: rgb(32,113,68);
+    background-color: transparent;
+}
+
+button.edit_btn_style::before {
+    content: '';
+    position: absolute;
+    left: 50px;
+    top: 25px;
+    width: 0px;
+    height: 50px;
+    background-image: url("../img/flower_on_ground.png");
+    background-size: 100px;
+    background-position: 0px, 0px;
+    background-repeat: repeat-x;
+    transition-duration: 300ms;
+}
+
+button.edit_btn_style:hover::before {
+    width: 100px;
+    transition-duration: 300ms;
+}*/

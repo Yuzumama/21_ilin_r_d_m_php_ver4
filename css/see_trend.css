@@ -1,0 +1,168 @@
+﻿.view_main_back_style {
+    position: absolute;
+    left: 480px;
+    top: 50px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all_figures_back_style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one_figure_back_style {
+    display: block;
+    justify-content: center;
+    align-items: start;
+}
+
+.figure_title_style {
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+}
+
+.figure_content_style {
+    width: 500px;
+    height: 500px;
+}
+
+canvas.figure_char_style {
+    width: 100%;
+    height: 100%;
+}
+
+.change_comparison_target_button_back_style {
+    position: absolute;
+    left: 10px;
+    top: 80px;
+}
+
+.change_figure_button_back_style {
+    position: absolute;
+    left: 500px;
+    top: 80px;
+}
+
+button.book_btn_style {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    border: 0px;
+    font-size: 17px;
+    font-family: Century Gothic;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* mix-blend-mode: darken; */
+    /* color: transparent; */
+    /* -webkit-background-clip: text; */
+    /* background-clip: text;  */
+}
+
+button.refresh_book_btn_style {
+    background-image: url("../img/refresh.png");
+}
+
+button.share_book_btn_style {
+    background-image: url("../img/users.png");
+}
+
+button.book_btn_style::before {
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: -5px;
+    top: -5px;
+    border-radius: 50%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0,0,0,0);
+    transition-duration: 300ms;
+}
+
+button.book_btn_style:hover::before {
+    content: "";
+    border-color: rgba(0,0,0,1);
+}
+
+button.book_btn_style:hover:active {
+    transform: translate(3px, 3px);
+}
+
+.analyze_summary_back_style {
+    margin-left: 100px;
+}
+
+.analyze_region_style {
+
+}
+
+.analyze_region_title_style {
+    font-family: Century Gothic;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.one_field_style {
+    position: relative;
+    left: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.win_field_crown_style {
+    position: absolute;
+    top: -5px;
+    width: 20px;
+    height: 20px;
+    background-image: url("../img/crown.png");
+    background-size: contain;
+    background-position: center;
+}
+
+.field_name_style {
+    width: 150px;
+    font-family: Century Gothic;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.field_score_style {
+    width: 100px;
+    font-family: Century Gothic;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+button.show_more_book_btn_style {
+    width: 150px;
+    font-family: Century Gothic;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(191, 156, 80);
+    border-radius: 3px;
+    border-width: 2px;
+    border-color: rgb(191, 156, 80);
+    border-style: solid;
+    transition-duration: 300ms;
+}
+
+button.show_more_book_btn_style:hover {
+    background-color: white;
+    color: rgb(191, 156, 80);
+}
+
+button.show_more_book_btn_style:active {
+    transform: translate(3px, 3px);
+    background-color: white;
+    color: rgb(191, 156, 80);
+}
